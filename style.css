@@ -5,6 +5,10 @@
 
 .cabecalho {
     padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
 }
 
 .cartao{
@@ -15,3 +19,30 @@
 .cartao-imagem {
     width: 100%;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: blueviolet;
+}
+
+main {
+    flex: 1;
+}
+
+.cabecalho-link{
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgb(233, 0, 0);
+    padding: 15px 25px;
+    color: black;
+} 
